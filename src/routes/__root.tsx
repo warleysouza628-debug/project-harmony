@@ -78,14 +78,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { title: "BISTRO 839 | Cozinha Contemporânea" },
+      { name: "description", content: "Cozinha contemporânea, ingredientes extraordinários e encontros sem pressa. Conheça o cardápio do BISTRO 839." },
+      { name: "author", content: "BISTRO 839" },
+      { property: "og:title", content: "BISTRO 839 | Cozinha Contemporânea" },
+      { property: "og:description", content: "Ingredientes extraordinários, encontros sem pressa e sabores que ficam na memória." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:site", content: "@bistro839" },
     ],
     links: [
       {
@@ -103,7 +103,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
 
 function RootShell({ children }: { children: ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="pt-BR">
       <head>
         <HeadContent />
       </head>
